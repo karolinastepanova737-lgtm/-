@@ -43,7 +43,18 @@ public class Main {
         // считаем сколько места осалось в машине
 
         var leftWeight = liftingCapacity - stuffWeight - productsWeight;
-        System.out.println("Места осталось "+ leftWeight + " кг!");
+        System.out.println("Общий весМеста осталось "+ leftWeight + " кг!");
+
+        // Добавляем еще друзей
+
+        productsWeight = productsWeight * 2;
+        System.out.println("Общий вес продуктов с друзьями составляет " + productsWeight + " кг");
+
+        leftWeight = liftingCapacity - stuffWeight - productsWeight;
+        System.out.println("Из - за друзей у нас остается только " + leftWeight + " кг свободного места");
+
+
+
 
     }
 }
