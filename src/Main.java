@@ -53,6 +53,10 @@ public class Main {
         leftWeight = liftingCapacity - stuffWeight - productsWeight;
         System.out.println("Из - за друзей у нас остается только " + leftWeight + " кг свободного места");
 
+        // остадок от деления
+        var overLoad = (stuffWeight + productsWeight) % liftingCapacity;
+        System.out.println("Получился перегруз на " + overLoad + " кг");
+
 
 
 
