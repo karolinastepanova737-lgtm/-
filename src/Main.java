@@ -7,6 +7,8 @@ public class Main {
         System.out.println(box);
         box = box - 3;
         System.out.println(box);
+        box = box * 3;
+        System.out.println(box);
 
     }
 }
